@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+body {
+    margin-left: 10px;
+}
+
+.display-4 {
+    color: purple;
+    height: 150px;
+    ;
+}
+
+
+/* Elementos Flutuantes */
+
+#f-left,
+#f-right {
+    padding: 10px;
+}
+
+
+/* elementos flutuantes */
+
+#borda {
+    border: 1px solid blue;
+}
+
+#fixo {
+    background-color: lawngreen;
+}
+
+#flutuantes {
+    background-color: orange;
+    color: blue;
+}
+
+
+/* Float Responsivo */
+
+#resposivel {
+    background-color: crimson;
+    color: white;
+}
+
+#small {
+    margin:3px 3px;
+    width: 180px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#medium {
+    margin:3px 3px;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(0, 255, 98);
+    color: white;
+    text-align: center;
+}
+
+#large {
+    margin:3px 3px;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(229, 255, 0);
+    color: rgb(10, 1, 1);
+    text-align: center;
+}
+
+#extra-l {
+    margin:3px 3px;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(20, 72, 141);
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+
+/* Colagem no topo */
+
+#colagem {
+    background-color:aqua;
+    color:black;
+}
